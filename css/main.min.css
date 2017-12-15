@@ -16,7 +16,7 @@ canvas {
 	width: 100vw;
 	height: 100vh;
 }
-input {
+#copy {
 	width: 250px;
 	height: 40px;
 	line-height: 40px;
@@ -26,7 +26,7 @@ input {
 	background: none;
 	color: white;
 	font-size: 30px;
-	font-family: arial;
+	font-family: 'FontAwesome';
 	text-align: center;
 	border: 1px solid white;
 	background: rgba(255,255,255,0.2);
