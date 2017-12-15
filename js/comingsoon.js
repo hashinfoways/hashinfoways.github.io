@@ -95,20 +95,20 @@ Particle.prototype.render = function() {
 }
 
 function onMouseMove(e){
-	// mouse.x = e.clientX;
-	// mouse.y = e.clientY;
+	mouse.x = e.clientX;
+	mouse.y = e.clientY;
 }
 
 function onTouchMove(e){
-    // if(e.touches.length > 0 ){
-    //   mouse.x = e.touches[0].clientX;
-    //   mouse.y = e.touches[0].clientY;
-    // }
+    if(e.touches.length > 0 ){
+      mouse.x = e.touches[0].clientX;
+      mouse.y = e.touches[0].clientY;
+    }
 }
 
 function onTouchEnd(e){
-  // mouse.x = -9999;
-  // mouse.y = -9999;
+  mouse.x = -9999;
+  mouse.y = -9999;
 }
 
 function initScene(){
